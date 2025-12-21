@@ -13,6 +13,8 @@ type EventEnvelope = {
 export const handler = async (
   event: EventBridgeEvent<string, EventEnvelope>
 ) => {
+  if(event.source === process.env.SERVICE) return;
+
   if (event["detail-type"] === AgencyUpdatedEvent.type) {
     const detail = AgencyUpdatedEvent.parse(event.detail);
     await Agency.update({
