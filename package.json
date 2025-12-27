@@ -64,7 +64,7 @@
     "hono": "^4.11.1",
     "serverless-spy": "^2.3.17",
     "uuid": "^8.3.2",
-    "vimo-events": "^0.33.0",
+    "vimo-events": "^0.34.0",
     "zod": "^4.2.1"
   },
   "license": "Apache-2.0",

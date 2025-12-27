@@ -18,5 +18,6 @@ export const generateAgency = makeGenerator<AgencyInput>(() => {
       zipCode: faker.location.zipCode(),
       country: faker.location.country(),
     },
+    timezone: faker.location.timeZone(),
   };
 });

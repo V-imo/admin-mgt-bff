@@ -15,6 +15,7 @@ export const AgencyEntity = new Entity({
       zipCode: string(),
       country: string(),
     }),
+    timezone: string(),
 
     oplock: number(),
     latched: boolean().optional(),

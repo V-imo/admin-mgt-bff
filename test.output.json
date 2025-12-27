@@ -1,9 +1,9 @@
 {
   "test-admin-mgt-bff": {
     "EventBusName": "testadminmgtbffEventBus210F1292",
-    "UserPoolClientId": "m6k4qfdar8r8v3ktocgcugjsl",
-    "UserPoolId": "eu-central-1_RyYs2uGXf",
-    "ApiUrl": "https://q1hrifjqk3.execute-api.eu-central-1.amazonaws.com/",
+    "UserPoolClientId": "63iim7flgi8mous8veuer39crf",
+    "UserPoolId": "eu-central-1_cZIxg67in",
+    "ApiUrl": "https://i0o5gz1gib.execute-api.eu-central-1.amazonaws.com/",
     "ServerlessSpyWsUrl": "awmytlfkneef7-ats.iot.eu-central-1.amazonaws.com/TestAdminMgtBff"
   }
 }

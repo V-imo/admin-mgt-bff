@@ -16,6 +16,7 @@ export const AgencySchema = z
       zipCode: z.string(),
       country: z.string(),
     }),
+    timezone: z.string(),
   })
   .openapi("Agency");
 
